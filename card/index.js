@@ -54,7 +54,7 @@ $(document).ready(function() {
 		$('.warp .shop').each(function() {
 			var $this = $(this).find('.shop-header .checked');
 			var selectChecked = $this.hasClass('select');
-			shopClickFun($this, checked, function(state) {});
+			shopClickFun($this, checked);
 		});
 		if (!checked) {
 			$allbtn.addClass('select');
