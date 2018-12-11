@@ -1,0 +1,108 @@
+html,
+body {
+	background: #dedede;
+}
+.warp {
+	width: 640px;
+	margin: auto;
+	margin-bottom: 50px;
+	font-size: 13px;
+}
+.shop {
+	margin: 20px 10px;
+	background: #fff;
+	border-radius: 10px;
+}
+.shop-header {
+	padding: 20px 10px;
+}
+.checked {
+	border-radius: 100%;
+	border: 1px solid #666;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin-right: 20px;
+}
+.select {
+	background: #ff5000;
+	border: 1px solid #ff5000;
+}
+ul {
+	list-style: none;
+	padding: 0;
+}
+.f-l {
+	float: left;
+}
+.d-l {
+	display: inline-block;
+}
+.good {
+	background: #ff51000e;
+	padding: 10px 20px;
+}
+.good .checked {
+	line-height: 150px;
+	margin-top: 45px;
+}
+.good .good-img {
+	width: 80px;
+	height: 80px;
+}
+.good .good-message {
+	width: 69%;
+	margin-left: 10px;
+	line-height: 25px;
+}
+.price {
+	height: 30px;
+	line-height: 30px;
+}
+.price .red {
+	color: #f00;
+}
+.price .num {
+	float: right;
+}
+
+.price .num span {
+	border: 1px solid #dedede;
+	color: #333;
+	height: 26px;
+	width: 26px;
+	line-height: 26px;
+	margin-top: 2px;
+	display: inline-block;
+	text-align: center;
+}
+.price .num .add {
+	float: right;
+}
+.price .num .reduce {
+}
+.price .num input {
+	height: 21px;
+	text-align: center;
+	width: 50px;
+}
+footer {
+	position: fixed;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	text-align: right;
+	padding: 0 20px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 600px;
+	margin: auto;
+	background: #fff;
+	color: #f00;
+}
+footer .checked {
+	margin-top: 15px;
+}
